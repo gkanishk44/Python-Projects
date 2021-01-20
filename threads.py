@@ -15,9 +15,9 @@ self.thread_name + "\n")
 			barrier.wait() 
 		except: 
 			print("barrier broken") 
-thread1 = thread(100, "GFG") 
-thread2 = thread(101, "Geeks") 
-thread3 = thread(102, "GeeksforGeeks") 
+thread1 = thread(100, "CWK") 
+thread2 = thread(101, "Code") 
+thread3 = thread(102, "CodewithKanishk") 
 
 thread1.start() 
 thread2.start() 
