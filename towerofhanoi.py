@@ -1,4 +1,4 @@
-ef hanoi(disks, source, auxiliary, target):
+def hanoi(disks, source, auxiliary, target):
     if disks == 1:
         print('Move disk 1 from peg {} to peg {}.'.format(source, target))
         return
